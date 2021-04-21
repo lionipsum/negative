@@ -1,8 +1,23 @@
-# NPM Package Starter
+# Negative
 
-The goal here is to have a vanilla project starter that includes typescript. In addition it has commit lint and ava for testing. So not so vanilla. More of a minimal preset. You get to chose your preferred front end framework. Enjoy making things.
+Ensure that a number is negative and enforce it.
 
 ![flavorite](https://raw.githubusercontent.com/patomation/vanilla-starter/master/public/favicon.ico)
+
+
+## Usage
+```js
+import {negative} from '@lionipsum/negative'
+
+console.log(negative(1))
+// Returns -1
+
+console.log(negative(-1))
+// Also Returns -1
+
+console.log(negative(0))
+// Returns 0
+```
 
 ## Install
 ```

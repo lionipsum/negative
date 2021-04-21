@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/lionipsum/negative/compare/v0.0.1...v0.0.2) (2021-04-21)
+
+
+### Bug Fixes
+
+* **dev:** package publish script ([90e9bba](https://github.com/lionipsum/negative/commit/90e9bba6b107df9edd9b89ef1e2fbb8d64554b72))
+
 ### 0.0.1 (2021-04-21)
 
 

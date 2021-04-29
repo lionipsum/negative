@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/lionipsum/negative/compare/v0.0.2...v0.0.3) (2021-04-29)
+
+
+### Features
+
+* **index:** handle strings and floats ([00bbee3](https://github.com/lionipsum/negative/commit/00bbee3bfde26ce932aa22deb0a9ae903dfde4bb))
+
 ### [0.0.2](https://github.com/lionipsum/negative/compare/v0.0.1...v0.0.2) (2021-04-21)
 
 

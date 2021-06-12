@@ -2,9 +2,6 @@
 
 Ensure that a number is negative and enforce it.
 
-![flavorite](https://raw.githubusercontent.com/patomation/vanilla-starter/master/public/favicon.ico)
-
-
 ## Usage
 ```js
 import {negative} from '@lionipsum/negative'

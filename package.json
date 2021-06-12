@@ -6,14 +6,15 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
-    "build"
+    "build/index.js",
+    "build/index.d.ts"
   ],
   "scripts": {
     "compile:tests": "tsc --project tsconfig.test.json",
     "compile:package": "tsc --project tsconfig.json",
     "compile": "run-s compile:tests compile:package",
     "build": "npm run compile",
-    "lint": "./node_modules/.bin/eslint **/*.{js,ts,tsx}",
+    "lint": "./node_modules/.bin/eslint **/*.{js,ts}",
     "unit": "ava",
     "unit:coverage": "nyc ava",
     "test": "run-s lint compile unit",
@@ -26,7 +27,7 @@
   "keywords": [
     "typescript"
   ],
-  "author": "Patrick Kelly",
+  "author": "Lion Ipsum",
   "license": "MIT",
   "ava": {
     "files": [
